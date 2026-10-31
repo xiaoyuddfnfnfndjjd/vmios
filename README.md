@@ -2,7 +2,8 @@
 
 **在虚拟机里运行真实的 iOS 16。**
 
-vmios 让 Apple 原版的 iOS 16.7.16（20H392，iPhone X / `iPhone10,3` / D22AP）
+vmios 让 Apple 原版的 iOS 16.7.16（20H392，iPhone X / `iPhone10,3` / 
+
 用户态运行在打了补丁的开源 XNU 8796 内核之上。客户机里是**真实的 iOS 根文件
 系统与共享缓存**：launchd、系统守护进程、backboardd、SpringBoard 和系统自带
 应用，而不是重写或伪造的界面。
